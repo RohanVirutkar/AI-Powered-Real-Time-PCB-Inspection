@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv_cuda/
+.env
+
+# DeepPCB raw dataset
+dataset/raw/
+
+# Generated dataset
+dataset/processed/
+
+# YOLO training outputs
+runs/
+*.pt
+
+# Model weights
+models/*.pt
+
+# Python cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
